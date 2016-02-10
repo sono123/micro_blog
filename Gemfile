@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails',        '4.2.2'
 gem 'bcrypt', '~> 3.1', '>= 3.1.10'
+gem 'faker', '~> 1.6', '>= 1.6.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'sass-rails',   '5.0.2'
 gem 'uglifier',     '2.5.3'
