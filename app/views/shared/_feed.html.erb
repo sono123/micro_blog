@@ -1,0 +1,9 @@
+<% if @feed_items.any? %>
+	<ol class="microposts">
+		<% @feed_items.each do |micropost| %>
+			<%= render micropost %>
+		<% end %>
+		<!-- #<%= render @feed_items %> ## alternate syntax --> 
+	</ol>
+	<%= will_paginate @feed_items %>
+<% end %>
