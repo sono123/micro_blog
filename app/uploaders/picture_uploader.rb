@@ -53,4 +53,7 @@ class PictureUploader < CarrierWave::Uploader::Base
   #   "something.jpg" if original_filename
   # end
 
+  #AKIAJF2NJXCQ42BILSDQ
+  #1KYrmNCByLjzFZaoFmH5vWWHHGQdQP/k8KOWRJJI
+
 end
